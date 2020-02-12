@@ -11,7 +11,7 @@ import com.example.tableviewtestapp.ui.tableview.RowHeaderModel
 class RowHeaderViewHolder(view: View) : AbstractViewHolder(view)
 {
     private var container: LinearLayout = view.findViewById(R.id.row_header_container)
-    private var content: TextView = view.findViewById(R.id.row_header_textview)
+    private var content: TextView = view.findViewById(R.id.row_header_textView)
 
     fun setColumnHeaderModel(model: RowHeaderModel)
     {
