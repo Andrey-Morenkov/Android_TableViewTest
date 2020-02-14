@@ -1,7 +1,9 @@
 package com.example.tableviewtestapp.ui.tableview
 
+import android.graphics.Color
 import androidx.recyclerview.widget.RecyclerView
 import com.evrencoskun.tableview.listener.ITableViewListener
+import com.example.tableviewtestapp.R
 import com.example.tableviewtestapp.ui.tableview.viewholders.CellViewHolder
 
 class TableViewListener : ITableViewListener

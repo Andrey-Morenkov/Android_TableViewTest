@@ -23,8 +23,8 @@ class TableModel()
     private fun generateRowHeader(): List<RowHeaderModel>
     {
         var tmp = ArrayList<RowHeaderModel>()
-        tmp.add(RowHeaderModel("Петя Иванов"))
-        tmp.add(RowHeaderModel("Вася Петров"))
+        tmp.add(RowHeaderModel("Петя\nИванов"))
+        tmp.add(RowHeaderModel("Вася\nПетров"))
 
         return tmp
     }

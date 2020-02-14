@@ -4,14 +4,14 @@
     android:layout_height="@dimen/cell_height">
 
     <View
-        android:layout_width="1px"
+        android:layout_width="3px"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:background="@color/separator_color"/>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1px"
+        android:layout_height="3px"
         android:layout_alignParentBottom="true"
         android:background="@color/separator_color" />
 </RelativeLayout>
